@@ -1,33 +1,28 @@
-# Buttleship Espacial
+# BUTTLESHIP ESPACIAL
 
 ## Bienvido a Buttleship Espacial
 
 * juego de batallas de naves espaciales 
 * Batalla entre humanos y Alienigenas 
-* [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
-* [4. Consideraciones generales](#4-consideraciones-generales)
-* [5. Pistas, tips y lecturas complementarias](#5-pistas-tips-y-lecturas-complementarias)
-* [6. Hacker edition](#6-hacker-edition)
+* 
+* 
+* 
+* 
 
-## 1. Preámbulo
-
-<img
+## 1. Introducción 
+<img 
 src="The_Galaxy_One(1).png"
 width="100%"/>
 
-Los videojuegos son una verdadera prueba cuando se trata de tecnología. Uno de
-los factores de éxito para el equipo de android, por ejemplo, fue que pudiesen
-tener un juego corriendo en los primeros teléfonos. La idea era que si un juego
-podía ejecutarse en la plataforma, un programa más simple con pantallas mucho
-más fáciles de trabajar que solo tuviese botones y texto debería funcionar aun
-mejor.
+El mundo de los videos juegos es una matriz inagotable de creaciones. Este video juego esta basado en el ya conocido juego de mesa buttleship, en el cual se crea una ballata de barcos contrincantes entre dos jugadores. Para nuestra version conservamos el nombre de la version antigua en homenaje a ella. En nuestra version podras ver que conservamos la esencia de la batalla solo que agregamos algunas mejoras que haran mas divertida e interesante tu experiencia de juego. 
 
-Entonces la idea de este proyecto es llevar los frameworks de aplicaciones web
-al límite de lo que pueden ofrecer, tratar de explorar sus funcionalidades más
-avanzadas y lograr un producto que se luzca con tu talento y creatividad
-dominando el framework que elijas.
+Buttleship Espacial 
+Nuestro video juego esta inspirado en la primera temporada de la conocida serie animada Final Space, donde existen dos jugadores que batallan en el espacio sideral con naves de la guardia infinity lideradas por "Quin" y "Gary"(comnada humanoide) y naves contrincantes lideradas por "El Señor Comandante" (comanda alienigena malvada).
 
-## 2. Resumen del proyecto
+
+
+
+# 2. Resumen del proyecto
 
 <img
 src="https://user-images.githubusercontent.com/7809496/66517403-78ea9680-eab9-11e9-8ab4-8d3c2cc21646.png"

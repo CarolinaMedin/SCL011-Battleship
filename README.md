@@ -1,6 +1,6 @@
-# BUTTLESHIP ESPACIAL
+# SPACESHIP
 
-## Bienvido a Buttleship Espacial
+## Bienvido a Spaceship
 
 * juego de batallas de naves espaciales 
 * Batalla entre humanos y Alienigenas 
@@ -15,7 +15,7 @@ width="100%"/>
 
 El mundo de los videos juegos es una matriz inagotable de creaciones. Este video juego esta basado en el ya conocido juego de mesa buttleship, en el cual se crea una ballata de barcos contrincantes entre dos jugadores. Para nuestra version conservamos el nombre de la version antigua en homenaje a ella. En nuestra version podras ver que conservamos la esencia de la batalla solo que agregamos algunas mejoras que haran mas divertida e interesante tu experiencia de juego. 
 
-Buttleship Espacial 
+Spaceship
 Nuestro video juego esta inspirado en la primera temporada de la conocida serie animada Final Space, donde existen dos jugadores que batallan en el espacio sideral con naves de la guardia infinity lideradas por "Quin" y "Gary"(comnada humanoide) y naves contrincantes lideradas por "El Señor Comandante" (comanda alienigena malvada).
 
 

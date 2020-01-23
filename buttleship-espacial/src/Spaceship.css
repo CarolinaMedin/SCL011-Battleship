@@ -1,0 +1,9 @@
+
+.spaceship {
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    background-color: #000;
+    border: 1px solid #fff;
+    z-index: 2;
+  }

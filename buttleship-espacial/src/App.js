@@ -1,33 +1,26 @@
 import React, { Component } from 'react';
-import Spaceship from './Spaceship';
-// import './App.css';
+import SpaceShip from './components/SpaceShip';
 
 
-
-const initialState = {
-  // food: getRandomCoordinates(),
-  // speed: 200,
-  // direction: 'RIGHT',
-  posicion: [50,50],
-  largo: 4,
-  orientacion: "X"
-}
 
 
 
 class App extends Component {
 
-  state = initialState;
-
-
- render() {
+  render() {
     return (
-      <div>
+      <div className="App">
       <div className="game-Board">
-        <Spaceship spaceShipState={this.state}/>
-        // <Spaceship spaceShipState={this.state}/>
+          <SpaceShip />
+          <SpaceShip state={{posicion_X: 50, posicion_Y: 50 ,largo: 3, orientacion: "Y"}}/>
+          <SpaceShip state={{posicion_X: 20, posicion_Y: 70 ,largo: 2, orientacion: "X"}}/>
+          <SpaceShip state={{posicion_X: 90, posicion_Y: 90 ,largo: 1, orientacion: "X"}}/>
       </div>
       <div className="game-Board">
+          <SpaceShip state={{posicion_X: 20, posicion_Y: 20 ,largo: 3, orientacion: "Y"}}/>
+          <SpaceShip state={{posicion_X: 20, posicion_Y: 70 ,largo: 2, orientacion: "X"}}/>
+          <SpaceShip state={{posicion_X: 60, posicion_Y: 10 ,largo: 2, orientacion: "Y"}}/>
+          <SpaceShip />
       </div>
     </div>
     );

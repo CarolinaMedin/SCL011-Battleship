@@ -13,6 +13,11 @@ code {
 }
 */
 
+.App {
+  /* max-width: 400px; */
+  margin: 30px auto;  /* 30 en top y bot, auto left y right (para ponerlo a mitad e la pantalla) */
+  text-align: center;
+}
 
 .game-Board {
   position: relative;
@@ -20,4 +25,16 @@ code {
   width:  400px;
   height: 400px;
   border: 2px solid #000;
+  display: inline-block;  /* bloques en una linea horizontal*/
+  margin: 0 30px;         /* margen en 10 left y right, 0 en top y botom  */
+}
+
+
+.spaceship {
+  position: absolute;
+  width: 10%;
+  height: 10%;
+  background-color: #000;
+  border: 1px solid #fff;
+  z-index: 2;
 }

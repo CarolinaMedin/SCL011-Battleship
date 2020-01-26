@@ -1,10 +1,17 @@
 import React, { Component } from 'react';
 
+const ColoresLargoSpaceShip = {
+    1: "red",
+    2: "yellow",
+    3: "blue",
+    4: "green"
+}
 const DefaultState = {
     coordenada_X: 0,
     coordenada_Y: 0,
     largo: 4,
-    orientacion: "H"
+    orientacion: "H",
+    colorSpaceShip: "black" //ColoresLargoSpaceShip[largo]
 }
 
 
@@ -22,9 +29,10 @@ class SpaceShip extends Component {
 
         // El constructor es el único lugar donde debe asignar el estado local directamente así. En cualquier otro lugar de nuestro componente, debe confiar en setState () en su lugar.
         this.state = typeof this.props.state === 'undefined' ? DefaultState : this.props.state;        // El constructor de su componente es el lugar perfecto para establecer el estado inicial de su componente. En lugar de usar setState () como lo haría en otros métodos en su clase, deberá establecer el estado inicial directamente:
-        
+        this.state.colorSpaceShip = ColoresLargoSpaceShip[this.state.largo]
+
         // Recomendado: Vincula eventos en un solo lugar
-        this.printSpaceShip = this.printSpaceShip.bind(this);
+        this.printState = this.printState.bind(this);
         ;
     }
     // Podemos declarar métodos especiales en la clase del componente para ejecutar algún código cuando un componente se monta y desmonta:
@@ -46,7 +54,7 @@ class SpaceShip extends Component {
     //     });
     // }
 
-    printSpaceShip(){
+    printState(){
         console.log(this.props);
         console.log(this.props.coordenada_X);
         console.log(this.props.coordenada_Y);
@@ -59,30 +67,33 @@ class SpaceShip extends Component {
         console.log(this.state.orientacion);
     }
     render() { 
-        let array = [];
+        let listDiv = [];
         for (var i = 0; i < this.state.largo; i++) {
-            // console.log("i: "+i);
+            console.log("i: "+i);
+            console.log("this.state.colorSpaceShip: "+this.state.colorSpaceShip);
             if( this.state.orientacion === "H" ){
                 const style = {
                     left: `${this.state.coordenada_X+10*i}%`,
-                    top: `${this.state.coordenada_Y}%`
+                    top: `${this.state.coordenada_Y}%`,
+                    backgroundColor: `${this.state.colorSpaceShip}`
                 }
-                array.push(
+                listDiv.push(
                     <div className="spaceship" key={i} style={style}></div>
                 )
             }else if( this.state.orientacion === "V" ){
                 const style = {
                     left: `${this.state.coordenada_X}%`,
-                    top: `${this.state.coordenada_Y+10*i}%`
+                    top: `${this.state.coordenada_Y+10*i}%`,
+                    backgroundColor: `${this.state.colorSpaceShip}`
                 }
-                array.push(
+                listDiv.push(
                     <div className="spaceship" key={i} style={style}></div>
                 )
             }
         }
         return (
-            <div onClick={this.printSpaceShip}>
-                {array}
+            <div onClick={this.printState}>
+                {listDiv}
             </div>
         )
     }
@@ -92,11 +103,11 @@ class SpaceShip extends Component {
 export default SpaceShip;
 
 // la inicialización de propiedades se hace una vez definida la clase, mediante una propiedad que usamos dentro de la propia clase. Al no estar en el código de la clase, se ejecutará una única vez.
-SpaceShip.defaultProps = {
-    props: {
-        coordenada_X: 0,
-        coordenada_Y: 0,
-        largo: 4,
-        orientacion: "H"
-    }   // 'Valor por defecto definido para la propiedad'
-  }
+// SpaceShip.defaultProps = {
+//     props: {
+//         coordenada_X: 0,
+//         coordenada_Y: 0,
+//         largo: 4,
+//         orientacion: "H"
+//     }   // 'Valor por defecto definido para la propiedad'
+//   }

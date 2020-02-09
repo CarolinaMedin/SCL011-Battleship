@@ -10,8 +10,8 @@
 
 ## 1. Introducción 
 <img 
-src="The_Galaxy_One(1).png"
-width="100%"/>
+src="https://vignette.wikia.nocookie.net/final-spaces/images/d/d2/The_Galaxy_One.png/revision/latest?cb=20180909022853&path-prefix=es.png"
+width="100%"/> 
 
 El mundo de los videos juegos es una matriz inagotable de creaciones. Este video juego esta basado en el ya conocido juego de mesa buttleship, en el cual se crea una ballata de barcos contrincantes entre dos jugadores. Para nuestra version conservamos el nombre de la version antigua en homenaje a ella. En nuestra version podras ver que conservamos la esencia de la batalla solo que agregamos algunas mejoras que haran mas divertida e interesante tu experiencia de juego. 
 

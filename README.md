@@ -24,8 +24,8 @@ Nuestro video juego esta inspirado en la primera temporada de la conocida serie 
 # 2. Resumen del proyecto
 
 <img
-src=".png"
-width="100%"/>
+src="https://a.wattpad.com/cover/176309641-288-k225764.jpg"
+width="300%"/>
 
 Battleship es un juego clásico, con múltiples versiones en juegos de mesa y en
 linea (si no lo conoces, puedes verlo en este link :

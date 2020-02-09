@@ -9,9 +9,6 @@
 
 
 ## 1. Introducción 
-<img 
-src="https://vignette.wikia.nocookie.net/final-spaces/images/d/d2/The_Galaxy_One.png/revision/latest?cb=20180909022853&path-prefix=es.png"
-width="100%"/> 
 
 <img style="-webkit-user-select: none;margin: auto;cursor: zoom-in;" src="https://vignette.wikia.nocookie.net/final-spaces/images/d/d2/The_Galaxy_One.png/revision/latest?cb=20180909022853&amp;path-prefix=es" width="741" height="591">
 

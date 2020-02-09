@@ -10,9 +10,6 @@
 
 ## 1. Introducción 
 
-<img
-src="The_Galaxy_One.png"
-width="700%"/>
 
 <img style="-webkit-user-select: none;margin: auto;cursor: zoom-in;" src="https://vignette.wikia.nocookie.net/final-spaces/images/d/d2/The_Galaxy_One.png/revision/latest?cb=20180909022853&amp;path-prefix=es" width="741" height="591">
 
@@ -27,7 +24,7 @@ Nuestro video juego esta inspirado en la primera temporada de la conocida serie 
 # 2. Resumen del proyecto
 
 <img
-src="https://user-images.githubusercontent.com/7809496/66517403-78ea9680-eab9-11e9-8ab4-8d3c2cc21646.png"
+src=".png"
 width="100%"/>
 
 Battleship es un juego clásico, con múltiples versiones en juegos de mesa y en
